@@ -14,14 +14,14 @@ Unzip it with the -a option:
 
         unzip -a RTViewDataCollectorSolace_5.0.0.0.zip
 
-This should create a RTViewDataCollectorSolace directory in your solmon-collector directory.
+This should create an RTViewDataCollectorSolace directory in your solmon-collector directory.
 Copy over the following files:
 
         cp /source/build_image.sh .
         cp /source/Dockerfile .
-        cp /source/install_solmon_collector_to_docker.sh
-        cp /source/run.sh
-        cp /source/setenv.sh
+        cp /source/install_solmon_collector_to_docker.sh .
+        cp /source/run.sh .
+        cp /source/setenv.sh .
 
 All 5 files will have to be tailored for the specific RTView package that you are trying to Dockerize.
 The install script will be named, based on the name of the RTView package
