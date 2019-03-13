@@ -10,6 +10,7 @@ Make a copy of the package that is going to be Dockerized (e.g.,  RTViewDataColl
 
         cp /source/RTViewDataCollectorSolace_5.0.0.0.zip .
 
+source is the directory, in which, the file originally resides.
 Unzip it with the -a option:
 
         unzip -a RTViewDataCollectorSolace_5.0.0.0.zip
