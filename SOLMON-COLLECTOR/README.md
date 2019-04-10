@@ -25,7 +25,9 @@ Copy over the following files:
         cp /source/setenv.sh .
 
 All 5 files will have to be tailored for the specific RTView package that you are trying to Dockerize.
-The install script will be named, based on the name of the RTView package
+For example, in the install_solmon_collector_to_docker.sh, the ports, which will have to be forwarded, 
+and the directory structure, needed for data persistence, will have to match your installation.
+The install script will be named, based on the name of the RTView package.
 
 Build the image:
 
