@@ -1,0 +1,30 @@
+{
+  "name": "rtview-telemetry-connector",
+  "version": "1.0.0",
+  "description": "RTView Proxy Server that connects to an external CSV file",
+  "homepage": "http://www.sl.com",
+  "main": "rtview_telemetry_connector.js",
+  "engines": [
+    "node"
+  ],
+  "keywords": [
+    "sl",
+    "slcorp",
+    "real-time",
+    "rtview",
+    "custom",
+    "dashboards",
+    "visualization",
+    "monitoring",
+    "telemetry"
+  ],
+  "dependencies": {
+    "exceljs": "^1.7.0",
+    "http": "",
+    "https": "",
+    "rtview-proxy-server": "",
+    "xhr2": "^0.1.4",
+    "xlsx": "",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
